@@ -72,7 +72,7 @@ if ( ! function_exists( 'YAMSTVDataToMMName') )
       if ( is_null( $mmVersion ) )
       {
         // new style references
-        return $prefix . $id;
+        return $name;
       }
       // If a managermanager version has been specified, then
       // the output depends on the version...
